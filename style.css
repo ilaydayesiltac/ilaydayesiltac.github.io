@@ -1,0 +1,240 @@
+body {
+    background-color: white;
+}
+
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+}
+
+
+
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(221, 95, 66);
+    font-weight: bold;
+}
+
+nav ul li a :hover {
+    color: rgb(219, 23, 46);
+}
+
+
+
+
+.detel h1 {
+    font-size: 50px;
+    color: rgb(204, 21, 21);
+    ;
+}
+
+
+
+.detel p {
+    color: rgb(162, 9, 9);
+    line-height: 22px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.detel {
+    display: flex;
+    justify-content: center;
+
+}
+
+.foto2 {
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    padding: 0px;
+    transform: translate(30%, -50%);
+    max-width: 1300px;
+    border-radius: 50%;
+}
+
+
+.hakkımda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.deneme {
+
+
+    padding-left: 95px;
+}
+
+
+.about {
+    margin-left: 10%;
+    font-size: 2rem;
+    border-style: hidden;
+}
+
+
+
+* {
+    box-sizing: border-box
+}
+
+
+.container {
+    width: 60%;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+
+}
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(182, 30, 30);
+}
+
+.html {
+    width: 90%;
+    background-color: pink;
+}
+
+.css {
+    width: 90%;
+    background-color: pink;
+}
+
+.python {
+    width: 50%;
+    background-color: pink;
+}
+
+.java {
+    width: 40%;
+    background-color: pink;
+}
+
+.javascript {
+    width: 40%;
+    background-color: pink;
+}
+
+.C {
+    width: 50%;
+    background-color: pink;
+}
+
+.sql {
+    width: 80%;
+    background-color: pink;
+}
+
+.c-sharp {
+    width: 50%;
+    background-color: pink;
+}
+
+
+.deneme3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#yukariButon {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.form1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 50px 75px 100px;
+}
+
+
+a:hover {
+    background-color: white;
+}
+
+a:link,
+a:visited {
+    background-color: white;
+    color: rgb(187, 31, 31);
+    padding: 20px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+.contactt {
+    background-color: white;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.iletisim-form {
+    text-align-last: center;
+    font-size: 15px;
+
+}
+
+.section-title {
+    margin-left: 10%;
+}
